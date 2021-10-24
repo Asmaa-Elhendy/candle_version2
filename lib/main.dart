@@ -2,15 +2,16 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 //import 'package:rxdart/rxdart.dart';
-
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:trainaing1/screens/candle_calc.dart';
 import 'package:trainaing1/services/localization.dart';
 import 'package:trainaing1/services/localizationmethods.dart';
+import 'package:wakelock/wakelock.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
    MobileAds.instance.initialize();
+   Wakelock.enable();
   runApp(MyApp());
 }
 

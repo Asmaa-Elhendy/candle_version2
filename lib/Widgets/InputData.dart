@@ -89,44 +89,7 @@ class _InputDataState extends State<InputData> {
 
       ],
     );
-    // return ListTile(
-    //   leading:  Text(title,
-    //     style: TextStyle(
-    //         color: Colors.white,
-    //         fontWeight: FontWeight.bold,
-    //         fontSize: 22
-    //     ),
-    //   ),
-    //
-    //   title: Container(
-    //     width: MediaQuery.of(context).size.width*.2,
-    //     decoration: BoxDecoration(
-    //       borderRadius: BorderRadius.circular(10),
-    //       color: Colors.white,
-    //     ),
-    //     child: TextField(
-    //       textAlign: TextAlign.center,
-    //       decoration: InputDecoration(
-    //         border:  OutlineInputBorder(
-    //           borderRadius: BorderRadius.circular(10),
-    //           borderSide: BorderSide(
-    //               color: Colors.white),
-    //         ),
-    //         contentPadding: EdgeInsets.symmetric(vertical: 0.5),
-    //         //errorText: validate? 'Please enter a Username' : null,
-    //       ),
-    //       controller:controller,
-    //       keyboardType: TextInputType.number,
-    //
-    //       onChanged: (_){
-    //         setState(() {
-    //           calculateResults();
-    //         });
-    //       },
-    //
-    //     ),
-    //   ),
-    // );
+
   }
 
   @override
